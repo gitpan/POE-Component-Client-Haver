@@ -1,0 +1,9 @@
+\.old$
+\.bak
+store
+blib
+_build
+^Build$
+^\.#
+\.svn
+\.gz$

@@ -1,0 +1,19 @@
+--- #YAML:1.0
+name: POE-Component-Client-Haver
+version: 0.06
+author:
+  - Bryan Donlan <bdonlan@bd-home-comp.no-ip.org>
+abstract: POE Component for Haver clients.
+license: gpl
+requires:
+  Data::Dumper: 2.121
+  Digest::SHA1: 2.01
+  Haver: 0.06
+  Haver::Client: 0.06
+  POE: 0.27
+  perl: 5.6.1
+provides:
+  POE::Component::Client::Haver:
+    file: lib/POE/Component/Client/Haver.pm
+    version: 0.06
+generated_by: Module::Build version 0.24

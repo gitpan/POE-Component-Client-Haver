@@ -1,0 +1,58 @@
+Haver poe-client 0.06 ("Lamp")
+=========================
+
+Haver's a new chat system similar to IRC,
+but hopefully it is both more simple and more
+flexible.
+
+Haver will never replace IRC, rather it
+is intended for a different niche: Fairly
+small servers. Haver doesn't make any attempts
+at doing multi-server stuff.
+
+Why was haver written?
+Because IRC is really... disorganized.
+Having to user agents for keeping rooms registered
+is just plain icky, in my opinion.
+
+Also, writing the server, the clients,
+devising a protocol that is simple, is
+terribly fun stuff.
+
+This is Bryan Donlan's POE client library for Haver.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Build.PL
+   perl Build
+   perl Build test
+   perl Build install
+
+DEPENDENCIES
+
+Haver         => 0.06
+Haver::Client => 0.06
+POE           => 0.27
+Data::Dumper  => 2.121
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2004 by Bryan Donlan, Dylan William Hardison
+
+This library is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this module; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
